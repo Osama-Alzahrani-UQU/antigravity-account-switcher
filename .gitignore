@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Local databases, tokens, user credentials & caches (CRITICAL: NEVER COMMIT)
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.json
+accounts.db
+config.json
+quota_cache.json
+daemon.log
+main.log
+daemon_test.log
+test_pythonw.log
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives and binaries
+*.exe
+*.zip
+*.vsix
