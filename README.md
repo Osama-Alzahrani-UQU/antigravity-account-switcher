@@ -104,6 +104,10 @@ You can add multiple Google accounts using either method:
   ```
   A browser window will open asking for your Google consent. Once authorized, the account is securely saved locally.
 
+> [!IMPORTANT]
+> **Adding a Second Account (or Additional Accounts):**  
+> To add a second account (or any subsequent account), you must completely close/exit the application and reopen/restart it before initiating the process to add the next account.
+
 ### 3. Running the Switcher
 
 - **GUI Dashboard**: Double-click `run_gui.bat` (or execute `python antigravity_fast_switcher.py`).
@@ -155,6 +159,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
    ```
 2. لتشغيل الواجهة الرسومية: اضغط مرتين على ملف `run_gui.bat`.
 3. لإضافة حساب جديد: اضغط على زر **+ Add Account** في الواجهة، أو شغل `add_account.bat`.
+
+> [!IMPORTANT]
+> **ملاحظة هامة عند إضافة حساب ثانٍ (أو حسابات إضافية):**
+> لإضافة حساب ثانٍ أو أي حساب إضافي، يجب إغلاق البرنامج بالكامل ثم إعادة تشغيله قبل البدء في إضافة الحساب الجديد.
+
 4. للتبديل الفوري لأفضل حساب عبر سطر الأوامر: شغل `switch_next.bat`.
 
 </details>
